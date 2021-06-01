@@ -22,11 +22,13 @@ The REST API to support above feature
 ### Request
 
 `POST /calculate`
-ResolverName - Resolver which use to solve this problem (In the Example will use position+50 as result)
-Size - size of dataset include data which will be calculated
-Input - Array of Data in DataSet
-FindPosition - Position of data which will becalculated
 
+- ResolverName - Resolver which use to solve this problem (In the ExampleReslover will use position+50 as result)
+- Size - size of dataset include data which will be calculated
+- Input - Array of Data in DataSet
+- FindPosition - Position of data which will becalculated
+
+#### Request Body
     {
         "ResolverName": "ExampleReslover",
         "Size": 7,
